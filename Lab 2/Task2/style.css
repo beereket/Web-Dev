@@ -1,173 +1,210 @@
-*{
-   box-sizing: border-box;
+.log{
+    width: 340px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    border: 1px solid gainsboro;
 }
-body{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+.custom-input {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 250px; 
+    height: 35px; 
+    border: 1px solid gainsboro;    
+    padding-left: 10px;
 }
-.page{
-   margin-top: 100px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.page .phone img{
-   position: relative;
-   width:400px;
-   height:600px;
-   margin-top: -30px;
-   margin-right: 30px;
-}
-.page .reg .form, .page .reg .secpart{
-   border: 0.5px solid grey;
-   margin:10px;
-   padding:10px;
-   border-radius: 2px;
-   justify-content: center;
-   display: flex;
-   width:400px;
-}
-.page .reg .form{
-   flex-direction: column;
-   align-items: center;
-}
-.page .reg .form .insta{
-   width: 60%;
-}
-.page .reg .form form{
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}
-.page .reg .form form input{
-   width: 80%;
-   padding: 11px;
-   margin: 3px;
-   background-color: whitesmoke;
-   border:1px solid #dedede;
-   border-radius: 3px;
-}
-.page .reg .form form button{
-   width: 80%;
-   margin:10px 0;
-   padding:8px;
-   background-color: #77b9e5;
-   color: #fff;
-   border: none;
-   border-radius: 10px;
-   font-size: 14px;
-}
-.page .reg .form .or{
-   display: flex;
-   flex-direction: row;
-}
-.page .reg .form .or hr{
-   width:120px;
-   height:1px;
-   margin-top:25px;
-   margin-left:10px;
-   margin-right: 10px;
-   color: gray;
-}
-.page .reg .form .or p{
-   font-family:Arial, Helvetica, sans-serif;
-   font-size: 17px;
-   margin-top:15px;
-}
-.page a{
-   text-decoration: none;
-}
-.page .reg .form .face{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-}
-.page .reg .form .face img{
-   width:20px;
-   height:18px;
-   margin-right:9px;
-}
-.page .reg .form .face a{
-   font-family:sans-serif;
-   color: #0c4a72;
-   font-size:15px;
-   font-weight: bold;
-}
-.page .reg .form .password a{
-   bottom:0;
-   font-family:sans-serif;
-   color: #0c4a72;
-   font-size: 13px;
-}
-.page .reg .secpart p{
-   font-family: sans-serif;
-   font-size: 15px;
-}
-.page .reg .secpart a{
-   margin-top: 15px;
-   margin-left: 5px;
-   color: #0c4a72;
-   font-size:15px;
-   font-weight: bold;
-}
-.page .bottom{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-.page .bottom p{
-   margin-top: -1px;
-   font-family: sans-serif;
-   text-align: center;
-}
-.page .bottom .images{
-   flex-direction: row;
-   justify-content: center;
-}
-.page .bottom .images img{
-   width: 200px;
-   height:50%;
-}
-.page .bottom .images .app{
-   margin-left: 8px;
-}
-.page .bottom .images .google{
-   margin-bottom: 1.5px;
-}
-.foot{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-}
-.foot ul:first-child{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   font-size: 14px;
-   list-style: none;
-   gap: 10px;
-   margin-top:100px;
-}
-.foot ul li, a {
-   text-decoration: none;
-   color: #8a8a8a;
-}
-.foot ul{
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
-   align-items: center;
-   font-size: 14px;
-   list-style: none;
-   gap: 10px;
+.custom-inputt {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 250px; 
+    height: 35px; 
+    border: 1px solid gainsboro;    
+    padding-left: 10px;
+    margin-top: -15px;    
 }
 
-
-
-
-
-
+.custom-input::placeholder{
+    text-align: left;
+    padding-left: 0px;
+    font-size:13px;
+    color: grey;
+}
+.custom-inputt::placeholder{
+    padding-left: 10px;
+    font-size: 13px;
+    color: grey;
+    padding-left: 0px;
+}
+.color-input:focus {
+    border-color: #ff0000; /* Изменение цвета края при фокусе */
+}
+.custom-input:active {
+    vertical-align: middle;
+    font-size: 16px;
+    border-color: green;
+}
+.in{
+    margin-top: 10px;
+    margin-left: 15px;
+    height: 50px;
+    color: #01a715;
+}
+.voit{
+    cursor: pointer;
+    height: 35px;
+    width: 268px;
+    border: 1px solid gainsboro;   
+    border-radius: 6px;
+    margin-left: 28px;
+    background-color: rgb(0, 157, 255);
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-style:unset;
+}
+.forg{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: rgb(0, 102, 255);
+    text-decoration: none;
+}
+.par{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(28, 1, 94);
+    font-size: 14px;
+    font-weight: 6px;
+    text-decoration: none;
+}
+.par:hover{
+    text-decoration: none;
+}
+.photo{
+    width: 600px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 360px;
+}
+.inst{
+    margin-top: 40px;
+    margin-left: 75px;
+}
+.ili{
+    margin-left: 45px;
+}
+.wr{
+    font-style: normal;
+    color: gray;
+    font-size: 13px;
+    margin-left: 13px;
+    margin-right: 13px;
+    padding-top: -100px;
+}
+.hr1{
+    height: 0px;
+    opacity: 0.5;
+    border-color: rgb(222, 216, 216);
+    color: gray;
+    width: 100px;
+    display: inline-block;
+}
+.hr2{
+    opacity: 0.5;
+    border-color: rgb(222, 216, 216);
+    width: 100px;
+    display: inline-block;
+}
+.but:hover{
+    text-decoration: none;
+    border: none;
+    background-size: cover; 
+}
+.but{
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+}
+.asd{
+    text-decoration: none;
+}
+.asd:hover{
+    text-decoration: none;
+}
+.dfg:hover{
+    text-decoration: none;
+}
+.dfg{
+    color: rgb(22, 1, 99);
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 15px;
+    padding-top: 20px;
+}
+.faceb{
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.new{
+    
+    width: 340px;
+    margin-top: 40px;
+    height: 65px;
+    background-color: white;
+    position:relative;
+    
+    border: 1px solid gainsboro;
+}
+.reg{
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.regg{
+    text-decoration: none;
+    font-weight: 50px;
+    color: rgb(24, 124, 237);
+}
+.regg:hover{
+    text-decoration: none;
+}
+.reg:hover{
+    text-decoration: none;
+}
+.ust{
+    text-align: center;
+    font-weight: 1;
+}
+.pht{
+    margin-top: -10px;
+    margin-left: 25px;
+}
+.tr{
+    margin-top: 0px;
+}
+.pht2{
+    margin-top: -53px;
+    margin-left: 175px;    
+}
+.curs{
+    cursor: pointer;
+}
+#toggleCheckbox {
+    display: none;
+  }
+  
+  #list {
+    display: none;
+  }
+  
+  #toggleCheckbox:checked ~ #list {
+    display: block;
+  }
+  
+.pos{
+    position: absolute;
+    top: 1000px;
+    left: 200px;
+}  
