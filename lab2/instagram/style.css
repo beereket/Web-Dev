@@ -1,0 +1,174 @@
+*{
+   box-sizing: border-box;
+}
+body{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.page{
+   margin-top: 100px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.page .phone img{
+   position: relative;
+   width:400px;
+   height:600px;
+   margin-top: -30px;
+   margin-right: 30px;
+}
+.page .reg .form, .page .reg .secpart{
+   border: 0.5px solid grey;
+   margin:10px;
+   padding:10px;
+   border-radius: 2px;
+   justify-content: center;
+   display: flex;
+   width:400px;
+}
+.page .reg .form{
+   flex-direction: column;
+   align-items: center;
+}
+.page .reg .form .insta{
+   width: 60%;
+}
+.page .reg .form form{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.page .reg .form form input{
+   width: 80%;
+   padding: 11px;
+   margin: 3px;
+   background-color: whitesmoke;
+   border:1px solid #dedede;
+   border-radius: 3px;
+}
+.page .reg .form form button{
+   width: 80%;
+   margin:10px 0;
+   padding:8px;
+   background-color: #77b9e5;
+   color: #fff;
+   border: none;
+   border-radius: 10px;
+   font-size: 14px;
+}
+.page .reg .form .or{
+   display: flex;
+   flex-direction: row;
+}
+.page .reg .form .or hr{
+   width:120px;
+   height:1px;
+   margin-top:25px;
+   margin-left:10px;
+   margin-right: 10px;
+   color: gray;
+}
+.page .reg .form .or p{
+   font-family:Arial, Helvetica, sans-serif;
+   font-size: 17px;
+   margin-top:15px;
+}
+.page a{
+   text-decoration: none;
+}
+.page .reg .form .face{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.page .reg .form .face img{
+   width:20px;
+   height:18px;
+   margin-right:9px;
+}
+.page .reg .form .face a{
+   font-family:sans-serif;
+   color: #0c4a72;
+   font-size:15px;
+   font-weight: bold;
+}
+.page .reg .form .password a{
+   bottom:0;
+   font-family:sans-serif;
+   color: #0c4a72;
+   font-size: 13px;
+}
+.page .reg .secpart p{
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.page .reg .secpart a{
+   margin-top: 15px;
+   margin-left: 5px;
+   color: #0c4a72;
+   font-size:15px;
+   font-weight: bold;
+}
+.page .bottom{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.page .bottom p{
+   margin-top: -1px;
+   font-family: sans-serif;
+   text-align: center;
+}
+.page .bottom .images{
+   flex-direction: row;
+   justify-content: center;
+}
+.page .bottom .images img{
+   width: 200px;
+   height:50%;
+}
+.page .bottom .images .app{
+   margin-left: 8px;
+}
+.page .bottom .images .google{
+   margin-bottom: 1.5px;
+}
+.foot{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.foot ul:first-child{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   list-style: none;
+   gap: 10px;
+   margin-top:100px;
+}
+.foot ul li, a {
+   text-decoration: none;
+   color: #8a8a8a;
+}
+.foot ul{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   list-style: none;
+   gap: 10px;
+}
+
+
+
+
+
+
+

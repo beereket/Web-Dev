@@ -1,0 +1,156 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+body{
+   background-color: whitesmoke;
+}
+header .page{
+position: absolute;
+top: 30%;
+width: 30%;
+left:30%; 
+display: flex;
+text-align: center;
+}
+header .page .logo{
+   order: 1;
+   justify-content: left;
+}
+header .page .authorization{
+   order: 2;
+   justify-content:right;
+   margin-left: 80px;
+   
+}
+header .page .logo p{
+   font-size: 20px;
+   font-weight: 100;
+   margin-top:-30px;
+   margin-left: 5px;
+   letter-spacing: 0.2px;
+}
+header .page .logo img{
+   height: 140px;
+   width:240px;
+}
+header .page .authorization form{
+   width: 300px;
+   background-color: white;
+   margin-top: -5px;
+   padding: 20px 28px;
+   border-radius: 8px;
+   border:3px solid whitesmoke;
+}
+.form{
+   border-radius: 10px;
+   display:flex;
+   flex-direction: column;
+   padding-top:12px;
+   gap:10px;
+
+}
+form input{
+   border: 1px solid whitesmoke;
+   font-size: 10px;
+   border-radius: 10px;
+   outline-color:cornflowerblue;
+   padding:15px;
+}
+.login{
+   background-color:royalblue;
+   color: white;
+   font-family:Arial, Helvetica, sans-serif;
+   border-radius: 7px;
+   border: 1px solid royalblue;
+   padding:10px;
+   font-size:15px;
+}
+.password{
+   color:royalblue;
+   text-align: center;
+   font-size: 15px;
+}
+.password:hover{
+   text-decoration: underline;
+}
+.create{
+   background-color:limegreen;
+   color:white;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 7px;
+   border:1px solid limegreen;
+   padding:10px;
+   font-size:15px;
+   width:190px;
+   margin-left: 25px;
+}
+header .page .authorization p{
+   font-size: 14px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.form hr {
+   margin: 10px 0;
+   border: 1px solid #ddd;
+ }
+footer{
+   position: fixed;
+   bottom: 0;
+   left:0;
+   width: 100%;
+   height:16%;
+   padding-top: 15px;
+   text-align: center;
+   background: white;
+   color:#737373;
+   font-family: inherit;
+   font-size: 12px;
+ }
+.container{
+   max-width: 1170px;
+   margin:auto;
+   position: relative;
+}
+
+.container ul{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+}
+footer ul{
+   display: flex;
+   flex-wrap: wrap;
+   list-style-type: none;
+   padding: 10px 0;
+   color: #737373;
+}
+footer ul:first-child{
+   border-bottom: 1px solid #dddfe2;
+}
+footer ul li{
+   padding-right:10px;
+}
+footer ul li a{
+   text-decoration: none;
+   color: #737373;
+}
+footer ul li a:hover{
+   text-decoration: underline;
+}
+footer ul li button{
+   width:25px;
+}
+footer p{
+   font-size: 11px;
+   color: #737373;
+   left:0;
+   bottom: 0;
+   top:100px;
+   position: absolute;
+   padding-top: 10px;
+}
+ 
+ 
+ 
