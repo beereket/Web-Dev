@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      'use strict'
+      let login = prompt('Who is there?','');
+      if (login == 'Admin') {
+        let pass = prompt('Password?','');
+        if (pass == 'TheMaster') alert('Welcome!');
+        else if (pass == 'Cancel') alert('Canceled');
+        else alert('Wrong password');
+      } else if (pass == 'Cancel') alert('Canceled');
+      else alert('I do not know you');
+    </script>
+  </body>
+</html>

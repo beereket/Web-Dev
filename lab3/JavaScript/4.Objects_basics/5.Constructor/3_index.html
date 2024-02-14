@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="3_test.js"></script>
+<script>
+  function Accumulator(startingValue) {
+    this.value = startingValue;
+
+    this.read = function() {
+      this.value += +prompt('How much to add?', 0);
+    };
+
+  }
+
+  let accumulator = new Accumulator(1);
+  accumulator.read();
+  accumulator.read();
+  alert(accumulator.value);
+</script>
