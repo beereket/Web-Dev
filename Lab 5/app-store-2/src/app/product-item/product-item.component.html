@@ -1,0 +1,40 @@
+<div class="card">
+    <div class="img">
+        <img src="{{product.image}}">
+    </div>
+
+    <div class="content">
+
+        <div class="review-container">
+            <div class="likes">
+                <!-- Display number of likes -->
+                <span>Likes: {{product.likes}}</span>
+                <!-- Heart icon for likes -->
+                <i class="fa fa-heart"></i>
+            </div>
+        </div>
+
+        <h5 class="price">{{product.price}}</h5>
+
+
+        <h4 class="name">{{product.name}}</h4>
+
+        <div class="description">
+            <p>{{product.description}}</p>
+        </div>
+
+
+        <div class="button-container">
+            <div class="like-button" (click)="likesProduct(product)">
+                <i class="fa fa-heart"></i>
+            </div>
+
+            <div class="remove_button" (click)="onRemoveClick()" >
+                <p>Remove</p>
+                <div class="trash-icon">
+                    <i class="fa fa-trash"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
