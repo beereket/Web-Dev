@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.home-page{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+
+}
+
+.welcome-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.welcome-part h2{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+
+.img {
+  width: 100%;
+  overflow: hidden;
+  height: 350px;
+  margin-top: 70px;
+}
+
+img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}

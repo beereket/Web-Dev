@@ -9,7 +9,7 @@ import {ProductItemComponent} from "../product-item/product-item.component";
 })
 export class ProductListComponent {
   @Input() categoryName!: string;
-  private products = products; // Assuming products is imported from somewhere
+  private products = products;
 
   getProductsByCategory(categoryName: string | undefined): Product[] {
     return this.products.filter(product => product.category === categoryName);

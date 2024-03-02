@@ -24,8 +24,6 @@ const routes: Routes = [
     AppComponent,
     ProductListComponent,
     ProductItemComponent,
-
-
   ],
   bootstrap: [
     AppComponent
