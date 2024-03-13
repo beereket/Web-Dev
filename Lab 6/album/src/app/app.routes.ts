@@ -9,9 +9,9 @@ import {NotFoundComponent} from "./not-found/not-found.component";
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', component: HomeComponent, title: 'Album | Home'},
-  { path: 'about', component: AboutComponent, title: 'Album | About Use' },
-  { path: 'albums', component: AlbumsComponent },
-  { path: 'albums/:id', component: AlbumDetailComponent },
-  { path: 'albums/:id/photos', component: AlbumPhotosComponent },
+  { path: 'about', component: AboutComponent, title: 'Album | About Us' },
+  { path: 'albums', component: AlbumsComponent, title: 'Album | Albums' },
+  { path: 'albums/:id', component: AlbumDetailComponent, title: 'Album | Album Detail' },
+  { path: 'albums/:id/photos', component: AlbumPhotosComponent, title: 'Album | Photos' },
   { path: '**', component: NotFoundComponent}
 ];

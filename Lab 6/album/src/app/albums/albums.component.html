@@ -1,1 +1,29 @@
-<p>albums works!</p>
+
+
+<div *ngIf="loaded; else loading" class="container">
+  <div class="albums-wrapper" *ngFor="let album of albums">
+      <article class="card-article">
+
+        <img src="../../assets/img/batman.jpg" alt="image" class="album-page">
+
+        <div class="card-data">
+          <span class="album-description">{{album.id}}</span>
+          <a class="album-title" [routerLink]="['/albums', album.id]">{{ album.title }}</a>
+          <button class="delete-button" (click)="deleteAlbum(album.id)">Delete</button>
+        </div>
+
+      </article>
+  </div>
+
+</div>
+
+<div class="adder-container">
+  <input type="text" [(ngModel)]="newAlbum.title" id="entry-area" placeholder="Enter album name">
+  <button class="add-album" (click)="addAlbum()" > Add Album </button>
+</div>
+
+
+
+<ng-template #loading>
+  <p>Albums are loading</p>
+</ng-template>

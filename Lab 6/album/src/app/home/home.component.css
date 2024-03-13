@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   color: white;
+
+  background-color: #31363F;
 }
 
 .home-page{
@@ -21,6 +23,7 @@
   align-items: center;
 
   width: 100%;
+  text-align: center;
 }
 
 .welcome-part h2{

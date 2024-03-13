@@ -1,1 +1,17 @@
-<p>album-detail works!</p>
+<div class="container" *ngIf="loaded; else loading">
+  <h2>Album-detail </h2>
+  <h2>{{album.id}}</h2>
+  <h2>{{album.title}}</h2>
+</div>
+
+<a class="back-button" routerLink="../../albums"><i class="fa fa-arrow-left" ></i></a>
+<a class="photos-button" routerLink="photos"><i class="fa fa-arrow-right" ></i></a>
+
+
+<div class="adder-container">
+  <input type="text" [(ngModel)]="newAlbum.title" id="entry-area" placeholder="Enter album title">
+  <button class="add-album" (click)="updateAlbum()" > Update </button>
+</div>
+<ng-template #loading>
+  <p> loading </p>
+</ng-template>
