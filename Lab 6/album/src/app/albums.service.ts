@@ -7,7 +7,6 @@ import {Observable} from "rxjs";
   providedIn: 'root'
 })
 export class AlbumsService {
-
   BASE_URL: string = "https://jsonplaceholder.typicode.com"
 
   constructor(private client: HttpClient) { }
